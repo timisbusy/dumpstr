@@ -33,3 +33,9 @@ You can also update that path using setConfig.
     , dump = md.dump;
     
     md.setConfig("my_config_path/is_better.js");
+
+If you want to keep your configs in environment variables instead (Who could blame you?), go ahead and set these instead. That way you can leave out the config file entirely.
+
+    AWS_KEY
+    AWS_SECRET
+    AWS_BUCKET
