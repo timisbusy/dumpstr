@@ -4,7 +4,7 @@ A node.js package to dump mongodb (mongodump) directly into s3 without filling u
 
 ## Install
 
-> npm install
+> npm install dumpstr
 
 ## Use
 
