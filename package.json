@@ -17,5 +17,11 @@
     "backup"
   ],
   "author": "Tim Atkinson",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "knox": "~0.7.0",
+    "knox-mpu": "~0.1.0",
+    "mongo-uri": "~0.1.2",
+    "mongodb": "~1.2.14"
+  }
 }

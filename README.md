@@ -18,7 +18,7 @@ A node.js package to dump mongodb (mongodump) directly into s3 without filling u
     });
 
 By default, dumpstr will check for a file in your working directory called "conf.js", which should look something like this. 
-
+    // This file is called conf.js
     module.exports = {
       aws: {
         key: "MY_KEY_IS_HERE"
