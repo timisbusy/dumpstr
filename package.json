@@ -1,0 +1,21 @@
+{
+  "name": "dumpstr",
+  "version": "0.0.0",
+  "description": "mongodumps directly to s3, does not pass go, does not create dump locally and then upload. streams and pipes all the way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "aws",
+    "s3",
+    "mongo",
+    "mongodump",
+    "mongodb",
+    "stream",
+    "backup"
+  ],
+  "author": "Tim Atkinson",
+  "license": "BSD"
+}
