@@ -20,7 +20,7 @@
   "license": "BSD",
   "dependencies": {
     "knox": "~0.7.0",
-    "knox-mpu": "~0.1.0",
+    "knox-mpu": "git://github.com/timisbusy/knox-mpu.git",
     "mongo-uri": "~0.1.2",
     "mongodb": "~1.2.14"
   }

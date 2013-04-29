@@ -1,4 +1,5 @@
 var dumpstr = require('..');
-dumpstr.dump("mongodb://localhost/gochime", "testing", function (err, res) {
+var datestr = +new Date();
+dumpstr.dump("mongodb://localhost/test", "test-" + datestr, function (err, res) {
   console.log(arguments);
 });
