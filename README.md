@@ -2,6 +2,8 @@
 
 A node.js package to dump mongodb (mongodump) directly into s3 without filling up your local disk in the process.
 
+NOTE: This is still a work in progress. Please don't rely on it as your only backup option, especially without some decent testing.
+
 ## Install
 
     npm install dumpstr
