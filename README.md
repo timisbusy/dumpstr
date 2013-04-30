@@ -20,6 +20,7 @@ NOTE: This is still a work in progress. Please don't rely on it as your only bac
     });
 
 By default, dumpstr will check for a file in your working directory called "conf.js", which should look something like this. 
+
     // This file is called conf.js
     module.exports = {
       aws: {
