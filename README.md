@@ -4,6 +4,7 @@ A node.js package to dump mongodb (mongodump) directly into s3 without filling u
 
 NOTE: This is still a work in progress. Please don't rely on it as your only backup option, especially without some decent testing.
 
+NOTE 2: You may need to upgrade your version of mongodump (by upgrading mongo) due to this issue: https://jira.mongodb.org/browse/SERVER-5233
 ## Install
 
     npm install dumpstr
