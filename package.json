@@ -19,7 +19,7 @@
   "author": "Tim Atkinson",
   "license": "BSD",
   "dependencies": {
-    "knox": "~0.7.0",
+    "knox": "~0.8.0",
     "knox-mpu": "git://github.com/timisbusy/knox-mpu.git",
     "mongo-uri": "~0.1.2",
     "mongodb": "~1.2.14",
