@@ -1,4 +1,5 @@
 module.exports = {
+  uri : "mongodb://localhost/test",
   aws : {
     key: 'YOUR_AWS_KEY'
     , secret: 'YOUR_AWS_SECRET'
