@@ -1,6 +1,6 @@
 {
   "name": "dumpstr",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "mongodumps directly to s3, does not pass go, does not create dump locally and then upload. streams and pipes all the way.",
   "main": "index.js",
   "scripts": {
