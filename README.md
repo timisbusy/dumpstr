@@ -20,7 +20,7 @@ NOTE 2: You may need to upgrade your version of mongodump (by upgrading mongo) d
       console.log('results: ', res);
     });
 
-By default, dumpstr will check for a file in your working directory called "conf.js", which should look something like this. 
+By default, dumpstr will check for a file in your working directory called "conf.js", which should look something like this.
 
     // This file is called conf.js
     module.exports = {
@@ -35,7 +35,7 @@ You can also update that path using setConfig.
 
     var md = require('dumpstr')
     , dump = md.dump;
-    
+
     md.setConfig("my_config_path/is_better.js");
 
 If you want to keep your configs in environment variables instead (Who could blame you?), go ahead and set these instead. That way you can leave out the config file entirely.
@@ -43,3 +43,17 @@ If you want to keep your configs in environment variables instead (Who could bla
     AWS_KEY
     AWS_SECRET
     AWS_BUCKET
+
+Or you can set your configuration by passing an object to `setConfig`:
+
+    var md = require('dumpstr');
+    , dump = md.dump;
+
+    md.setConfig({
+      aws: {
+        key: "MY_KEY_IS_HERE"
+      , secret: "THIS_IS_SECRET_HERE"
+      , bucket: "I_HAS_A_BUCKET"
+      , region: "REGION_HERE"
+      }
+    });
